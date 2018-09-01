@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47960954213A62BF00CBE51B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960953213A62BF00CBE51B /* AppDelegate.swift */; };
+		47960956213A62BF00CBE51B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960955213A62BF00CBE51B /* ViewController.swift */; };
+		47960959213A62BF00CBE51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47960957213A62BF00CBE51B /* Main.storyboard */; };
+		4796095B213A62C100CBE51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4796095A213A62C100CBE51B /* Assets.xcassets */; };
+		4796095E213A62C100CBE51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4796095C213A62C100CBE51B /* LaunchScreen.storyboard */; };
+		47960969213A62C100CBE51B /* KollectinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960968213A62C100CBE51B /* KollectinTests.swift */; };
+		47960974213A62C100CBE51B /* KollectinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960973213A62C100CBE51B /* KollectinUITests.swift */; };
+		47960985213A6ABF00CBE51B /* PAPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960982213A6ABF00CBE51B /* PAPConstants.swift */; };
+		47960986213A6ABF00CBE51B /* PAPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960982213A6ABF00CBE51B /* PAPConstants.swift */; };
+		47960987213A6ABF00CBE51B /* PAPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960982213A6ABF00CBE51B /* PAPConstants.swift */; };
+		47960988213A6ABF00CBE51B /* PAPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960983213A6ABF00CBE51B /* PAPUtility.swift */; };
+		47960989213A6ABF00CBE51B /* PAPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960983213A6ABF00CBE51B /* PAPUtility.swift */; };
+		4796098A213A6ABF00CBE51B /* PAPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960983213A6ABF00CBE51B /* PAPUtility.swift */; };
+		4796098B213A6ABF00CBE51B /* PAPCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960984213A6ABF00CBE51B /* PAPCache.swift */; };
+		4796098C213A6ABF00CBE51B /* PAPCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960984213A6ABF00CBE51B /* PAPCache.swift */; };
+		4796098D213A6ABF00CBE51B /* PAPCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960984213A6ABF00CBE51B /* PAPCache.swift */; };
+		75C7499ACC84DCF1386ACF49 /* Pods_Kollectin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB6235082BAD1F738E869FF /* Pods_Kollectin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47960965213A62C100CBE51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47960948213A62BF00CBE51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4796094F213A62BF00CBE51B;
+			remoteInfo = Kollectin;
+		};
+		47960970213A62C100CBE51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47960948213A62BF00CBE51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4796094F213A62BF00CBE51B;
+			remoteInfo = Kollectin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2456DA48CFA26FA7B2EAA009 /* Pods-Kollectin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kollectin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kollectin/Pods-Kollectin.release.xcconfig"; sourceTree = "<group>"; };
+		47960950213A62BF00CBE51B /* Kollectin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kollectin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47960953213A62BF00CBE51B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47960955213A62BF00CBE51B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47960958213A62BF00CBE51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4796095A213A62C100CBE51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4796095D213A62C100CBE51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4796095F213A62C100CBE51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47960964213A62C100CBE51B /* KollectinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KollectinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47960968213A62C100CBE51B /* KollectinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KollectinTests.swift; sourceTree = "<group>"; };
+		4796096A213A62C100CBE51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4796096F213A62C100CBE51B /* KollectinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KollectinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47960973213A62C100CBE51B /* KollectinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KollectinUITests.swift; sourceTree = "<group>"; };
+		47960975213A62C100CBE51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47960982213A6ABF00CBE51B /* PAPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAPConstants.swift; sourceTree = "<group>"; };
+		47960983213A6ABF00CBE51B /* PAPUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAPUtility.swift; sourceTree = "<group>"; };
+		47960984213A6ABF00CBE51B /* PAPCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAPCache.swift; sourceTree = "<group>"; };
+		4EB6235082BAD1F738E869FF /* Pods_Kollectin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kollectin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52055504768F0F4E8E841F56 /* Pods_KollectinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KollectinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE5390427418FA5667A0C25 /* Pods_KollectinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KollectinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F42343376C29A7E839A35E /* Pods-Kollectin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kollectin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kollectin/Pods-Kollectin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4796094D213A62BF00CBE51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C7499ACC84DCF1386ACF49 /* Pods_Kollectin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47960961213A62C100CBE51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4796096C213A62C100CBE51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4047553C8C9689DB31B040C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EB6235082BAD1F738E869FF /* Pods_Kollectin.framework */,
+				CBE5390427418FA5667A0C25 /* Pods_KollectinTests.framework */,
+				52055504768F0F4E8E841F56 /* Pods_KollectinUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47960947213A62BF00CBE51B = {
+			isa = PBXGroup;
+			children = (
+				47960952213A62BF00CBE51B /* Kollectin */,
+				47960967213A62C100CBE51B /* KollectinTests */,
+				47960972213A62C100CBE51B /* KollectinUITests */,
+				47960951213A62BF00CBE51B /* Products */,
+				FA89D8FE809486DE81320D50 /* Pods */,
+				4047553C8C9689DB31B040C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47960951213A62BF00CBE51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47960950213A62BF00CBE51B /* Kollectin.app */,
+				47960964213A62C100CBE51B /* KollectinTests.xctest */,
+				4796096F213A62C100CBE51B /* KollectinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47960952213A62BF00CBE51B /* Kollectin */ = {
+			isa = PBXGroup;
+			children = (
+				47960981213A671300CBE51B /* Unity */,
+				47960953213A62BF00CBE51B /* AppDelegate.swift */,
+				47960955213A62BF00CBE51B /* ViewController.swift */,
+				47960957213A62BF00CBE51B /* Main.storyboard */,
+				4796095A213A62C100CBE51B /* Assets.xcassets */,
+				4796095C213A62C100CBE51B /* LaunchScreen.storyboard */,
+				4796095F213A62C100CBE51B /* Info.plist */,
+			);
+			path = Kollectin;
+			sourceTree = "<group>";
+		};
+		47960967213A62C100CBE51B /* KollectinTests */ = {
+			isa = PBXGroup;
+			children = (
+				47960968213A62C100CBE51B /* KollectinTests.swift */,
+				4796096A213A62C100CBE51B /* Info.plist */,
+			);
+			path = KollectinTests;
+			sourceTree = "<group>";
+		};
+		47960972213A62C100CBE51B /* KollectinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47960973213A62C100CBE51B /* KollectinUITests.swift */,
+				47960975213A62C100CBE51B /* Info.plist */,
+			);
+			path = KollectinUITests;
+			sourceTree = "<group>";
+		};
+		47960981213A671300CBE51B /* Unity */ = {
+			isa = PBXGroup;
+			children = (
+				47960983213A6ABF00CBE51B /* PAPUtility.swift */,
+				47960984213A6ABF00CBE51B /* PAPCache.swift */,
+				47960982213A6ABF00CBE51B /* PAPConstants.swift */,
+			);
+			path = Unity;
+			sourceTree = "<group>";
+		};
+		FA89D8FE809486DE81320D50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0F42343376C29A7E839A35E /* Pods-Kollectin.debug.xcconfig */,
+				2456DA48CFA26FA7B2EAA009 /* Pods-Kollectin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4796094F213A62BF00CBE51B /* Kollectin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47960978213A62C100CBE51B /* Build configuration list for PBXNativeTarget "Kollectin" */;
+			buildPhases = (
+				1F6E6BDB915F1245613270EA /* [CP] Check Pods Manifest.lock */,
+				4796094C213A62BF00CBE51B /* Sources */,
+				4796094D213A62BF00CBE51B /* Frameworks */,
+				4796094E213A62BF00CBE51B /* Resources */,
+				FAE0902EF0DED583F2B46E2A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kollectin;
+			productName = Kollectin;
+			productReference = 47960950213A62BF00CBE51B /* Kollectin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47960963213A62C100CBE51B /* KollectinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4796097B213A62C100CBE51B /* Build configuration list for PBXNativeTarget "KollectinTests" */;
+			buildPhases = (
+				47960960213A62C100CBE51B /* Sources */,
+				47960961213A62C100CBE51B /* Frameworks */,
+				47960962213A62C100CBE51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47960966213A62C100CBE51B /* PBXTargetDependency */,
+			);
+			name = KollectinTests;
+			productName = KollectinTests;
+			productReference = 47960964213A62C100CBE51B /* KollectinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4796096E213A62C100CBE51B /* KollectinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4796097E213A62C100CBE51B /* Build configuration list for PBXNativeTarget "KollectinUITests" */;
+			buildPhases = (
+				4796096B213A62C100CBE51B /* Sources */,
+				4796096C213A62C100CBE51B /* Frameworks */,
+				4796096D213A62C100CBE51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47960971213A62C100CBE51B /* PBXTargetDependency */,
+			);
+			name = KollectinUITests;
+			productName = KollectinUITests;
+			productReference = 4796096F213A62C100CBE51B /* KollectinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47960948213A62BF00CBE51B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "陳駿逸";
+				TargetAttributes = {
+					4796094F213A62BF00CBE51B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					47960963213A62C100CBE51B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4796094F213A62BF00CBE51B;
+					};
+					4796096E213A62C100CBE51B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4796094F213A62BF00CBE51B;
+					};
+				};
+			};
+			buildConfigurationList = 4796094B213A62BF00CBE51B /* Build configuration list for PBXProject "Kollectin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47960947213A62BF00CBE51B;
+			productRefGroup = 47960951213A62BF00CBE51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4796094F213A62BF00CBE51B /* Kollectin */,
+				47960963213A62C100CBE51B /* KollectinTests */,
+				4796096E213A62C100CBE51B /* KollectinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4796094E213A62BF00CBE51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4796095E213A62C100CBE51B /* LaunchScreen.storyboard in Resources */,
+				4796095B213A62C100CBE51B /* Assets.xcassets in Resources */,
+				47960959213A62BF00CBE51B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47960962213A62C100CBE51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4796096D213A62C100CBE51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F6E6BDB915F1245613270EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kollectin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE0902EF0DED583F2B46E2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kollectin/Pods-Kollectin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/LoadMoreTableViewController/LoadMoreTableViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoadMoreTableViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kollectin/Pods-Kollectin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4796094C213A62BF00CBE51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47960988213A6ABF00CBE51B /* PAPUtility.swift in Sources */,
+				47960985213A6ABF00CBE51B /* PAPConstants.swift in Sources */,
+				47960956213A62BF00CBE51B /* ViewController.swift in Sources */,
+				4796098B213A6ABF00CBE51B /* PAPCache.swift in Sources */,
+				47960954213A62BF00CBE51B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47960960213A62C100CBE51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47960969213A62C100CBE51B /* KollectinTests.swift in Sources */,
+				47960986213A6ABF00CBE51B /* PAPConstants.swift in Sources */,
+				4796098C213A6ABF00CBE51B /* PAPCache.swift in Sources */,
+				47960989213A6ABF00CBE51B /* PAPUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4796096B213A62C100CBE51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47960974213A62C100CBE51B /* KollectinUITests.swift in Sources */,
+				47960987213A6ABF00CBE51B /* PAPConstants.swift in Sources */,
+				4796098D213A6ABF00CBE51B /* PAPCache.swift in Sources */,
+				4796098A213A6ABF00CBE51B /* PAPUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47960966213A62C100CBE51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4796094F213A62BF00CBE51B /* Kollectin */;
+			targetProxy = 47960965213A62C100CBE51B /* PBXContainerItemProxy */;
+		};
+		47960971213A62C100CBE51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4796094F213A62BF00CBE51B /* Kollectin */;
+			targetProxy = 47960970213A62C100CBE51B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47960957213A62BF00CBE51B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47960958213A62BF00CBE51B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4796095C213A62C100CBE51B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4796095D213A62C100CBE51B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47960976213A62C100CBE51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47960977213A62C100CBE51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47960979213A62C100CBE51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F42343376C29A7E839A35E /* Pods-Kollectin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4K46M3X9G;
+				INFOPLIST_FILE = Kollectin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.themovie.Kollectin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4796097A213A62C100CBE51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2456DA48CFA26FA7B2EAA009 /* Pods-Kollectin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4K46M3X9G;
+				INFOPLIST_FILE = Kollectin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.themovie.Kollectin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4796097C213A62C100CBE51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4K46M3X9G;
+				INFOPLIST_FILE = KollectinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.themovie.KollectinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kollectin.app/Kollectin";
+			};
+			name = Debug;
+		};
+		4796097D213A62C100CBE51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4K46M3X9G;
+				INFOPLIST_FILE = KollectinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.themovie.KollectinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kollectin.app/Kollectin";
+			};
+			name = Release;
+		};
+		4796097F213A62C100CBE51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4K46M3X9G;
+				INFOPLIST_FILE = KollectinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.themovie.KollectinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kollectin;
+			};
+			name = Debug;
+		};
+		47960980213A62C100CBE51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4K46M3X9G;
+				INFOPLIST_FILE = KollectinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.themovie.KollectinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kollectin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4796094B213A62BF00CBE51B /* Build configuration list for PBXProject "Kollectin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47960976213A62C100CBE51B /* Debug */,
+				47960977213A62C100CBE51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47960978213A62C100CBE51B /* Build configuration list for PBXNativeTarget "Kollectin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47960979213A62C100CBE51B /* Debug */,
+				4796097A213A62C100CBE51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4796097B213A62C100CBE51B /* Build configuration list for PBXNativeTarget "KollectinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4796097C213A62C100CBE51B /* Debug */,
+				4796097D213A62C100CBE51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4796097E213A62C100CBE51B /* Build configuration list for PBXNativeTarget "KollectinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4796097F213A62C100CBE51B /* Debug */,
+				47960980213A62C100CBE51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47960948213A62BF00CBE51B /* Project object */;
+}
