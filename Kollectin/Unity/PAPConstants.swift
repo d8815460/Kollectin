@@ -23,29 +23,12 @@ class pUser: Object {
     let               addUpLine     = List<pUser>()
 }
 
-// MARK: - Followers Object
-class Followers: Object {
-    let               fromUser  = List<pUser>()
-    let               toUser    = List<pUser>()
-    @objc dynamic var createdAt = Date()
-    @objc dynamic var updateAt  = Date()
-}
-
-
 // MARK: - User Class
 // Class key
 let kPAPUserClassKey            = "_User"
 // Field keys
 let kPAPUserAddDownLinKey       = "addDownLine"     // Followers
 let kPAPUserAddUpLineKey        = "addUpLine"       // Following
-
-// MARK: - Order Class
-// Class key
-let kPAPFollowersClassKey       = "Order"
-// Field keys
-let kPAPItemsKey                = "Items"
-let kPAPFollowersFromUserKey    = "fromUser"
-let kPAPFollowersToUserKey      = "toUser"
 
 // MARK:- Activity Class
 // Class key
@@ -56,7 +39,6 @@ let kPAPActivityTypeKey         = "type"
 let kPAPActivityFromUserKey     = "fromUser"
 let kPAPActivityToUserKey       = "toUser"
 let kPAPActivityContentKey      = "content"
-let kPAPActivityAdoptionKey     = "adoption"
 let kPAPActivityPhotoKey        = "photo"
 
 // Type values
@@ -64,6 +46,14 @@ let kPAPActivityTypeLike        = "like"
 let kPAPActivityTypeFollow      = "follow"
 let kPAPActivityTypeComment     = "comment"
 let kPAPActivityTypeJoined      = "joined"
+
+// MARK: - Order Class
+// Class key
+let kPAPOlderClassKey           = "Order"
+// Field keys
+let kPAPItemsKey                = "Items"
+let kPAPFollowersFromUserKey    = "fromUser"
+let kPAPFollowersToUserKey      = "toUser"
 
 // MARK:- Cached Post Attributes
 // keys

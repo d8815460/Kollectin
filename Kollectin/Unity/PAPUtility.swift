@@ -13,23 +13,22 @@ class PAPUtility {
     // MARK:- 用戶追蹤的人
     
     
-
-
+    
 
     // MARK Activities
-    class func queryForActivitiesOnPost(adoption: PFObject, cachePolicy: PFCachePolicy) -> PFQuery<PFObject> {
+    class func queryForActivitiesOnPhoto(adoption: PFObject, cachePolicy: PFCachePolicy) -> PFQuery<PFObject> {
         let queryLikes: PFQuery = PFQuery(className: kPAPActivityClassKey)
-        queryLikes.whereKey(kPAPActivityAdoptionKey, equalTo: adoption)
+        queryLikes.whereKey(kPAPActivityPhotoKey, equalTo: adoption)
         queryLikes.whereKey(kPAPActivityTypeKey, equalTo: kPAPActivityTypeLike)
 
         let queryComments = PFQuery(className: kPAPActivityClassKey)
-        queryComments.whereKey(kPAPActivityAdoptionKey, equalTo: adoption)
+        queryComments.whereKey(kPAPActivityPhotoKey, equalTo: adoption)
         queryComments.whereKey(kPAPActivityTypeKey, equalTo: kPAPActivityTypeComment)
 
         let query = PFQuery.orQuery(withSubqueries: [queryLikes,queryComments])
         query.cachePolicy = cachePolicy
         query.includeKey(kPAPActivityFromUserKey)
-        query.includeKey(kPAPActivityAdoptionKey)
+        query.includeKey(kPAPActivityPhotoKey)
 
         return query
     }
